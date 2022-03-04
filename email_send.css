@@ -1,0 +1,77 @@
+.form{
+	
+	width:80% ;
+	height: 72%;
+	
+      background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0, 0, 0, 0.8)50%);
+     position: absolute;
+    top: 200px;
+    left: 200px;
+    
+    border-radius: 10px;
+    padding: 25px;
+	
+}
+.form h2{
+
+	text-align: center;
+	font-family: italic;
+	background: green;
+	text-decoration: underline;
+	color: black;
+	font-weight: bolder;
+	border-radius: 100px;
+	padding: 10px;
+
+}
+.form-control{
+	width:800px ;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: white;
+	font-size:18px ;
+	margin-bottom: 16px;
+
+
+}
+input{
+	height: 45px;
+
+
+}
+.submit{
+	background: darkred;
+	border-color: transparent;
+	color: white;
+	font-size:20px;
+	font-weight:bold ;
+	letter-spacing: 2px;
+	height:50px ;
+	margin-top:20px ;
+
+
+
+
+}
+.submit:hover{
+	background-color:orange;
+	color: black;
+	cursor: pointer;
+
+
+
+
+}
+.contact-form {
+	width: 300px;
+	margin-left: 120px;
+	margin-top: 30px;
+	
+
+
+}
+
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>boostrap2</title> 
+	
+
+ 
+ 
+
+</head>
+
+
+
+
+<body >
+  <div class="container">
+
+    <form onsubmit="sendEmail(); reset(); return false; ">
+      <h3>GET  IN TOUCH</h3>
+      <input type="text" id="name" palaceholder="yourname" required>
+       <input type="email" id="email" palaceholder="Email id" required>
+        <input type="text" id="phone" palaceholder="phone no." required>
+        <textarea id="message" rows="4"></textarea>
+        <button type="submit">Send</button>
+
+      
+
+
+
+
+
+    </form>
+    
+
+
+
+
+
+  </div>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script >
+    function sendEmail(){
+       Email.send({
+               Host : "smtp.gmail.com",
+              Username : "medmiri123@gmail.com",
+              Password : "A3DD6A4770D7E2B29B9B2728B68D3E6A888E",
+              To : 'medmiri123@gmail.com',
+              From : document.getElementById("email").value,
+              Subject : "nouveau contact",
+                Body : "And this is the body"
+}).then(
+  message => alert(message)
+  smtp.Credentials = new System.Net.NetworkCredential("ggcobani@gmail.com", "password");
+smtp.EnableSsl = true;
+smtp.UseDefaultCredentials = false;
+
+  
+}
+    
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</body >
+
+</html>
